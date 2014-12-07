@@ -5,7 +5,6 @@ $(function(){
 	$('.container').fullpage({
 	    afterLoad: function(anchorLink, index){
 	    	if(index == 1 || index == 7){
-	    		$("#canvas_snow").show();
 	    		window.snow = true;
 	    	}else{
 	    		window.snow = false;
@@ -54,7 +53,7 @@ $(function(){
             }
         }
 	});
-	// $.fn.fullpage.setAllowScrolling(false);
+	$.fn.fullpage.setAllowScrolling(false);
 
 	// window.sum = 19;
 	// window.loaded = 0;
@@ -76,3 +75,4 @@ $(function(){
 	// 	}
 	// });	
 });
+

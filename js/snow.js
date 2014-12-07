@@ -85,10 +85,15 @@ particles[i] = {x: W+5, y: Math.random()*H, r: p.r, d: p.d};
 }
 }
 
-//animation loop
-setInterval(function(){
-	if(window.snow){ 
+	//animation loop
+	setInterval(function(){
+		if(window.snow){ 
 			draw();
 		};
 	}, 50);
+
+	$(".loader").hide();
+	$("#canvas_snow").show();
+	$(".fixed").css({"z-index": 3, "background" : "transparent"});
+	$.fn.fullpage.setAllowScrolling(true);
 }

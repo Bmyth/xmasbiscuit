@@ -6,6 +6,7 @@ $(function(){
 	    afterLoad: function(anchorLink, index){
 	    	if(index == 1 || index == 7){
 	    		window.snow = true;
+	    		$("#canvas_snow").show();
 	    	}else{
 	    		window.snow = false;
 	    	}
@@ -53,26 +54,6 @@ $(function(){
             }
         }
 	});
-	$.fn.fullpage.setAllowScrolling(false);
-
-	// window.sum = 19;
-	// window.loaded = 0;
-	// $(".bp").each(function(){
-	// 	$(this).get(0).onload = function(){
-	// 		window.loaded ++;
-	// 		if(window.loaded < window.sum){
-	// 			var w = (loaded * 100 / sum) + '%';
-	// 			$(".loading-bar").css({width: w});
-	// 		}else{
-	// 			$(".loading-bar").animate({width: '100%'}, 1000, function(){
-	// 				$(".loader").hide();
-	// 				$(".loading-bar").hide();
-	// 				$("#canvas_snow").show();
-	// 				$(".fixed").css({"z-index": 3, "background" : "transparent"});
-	// 				$.fn.fullpage.setAllowScrolling(true);
-	// 			});
-	// 		}
-	// 	}
-	// });	
+	$.fn.fullpage.setAllowScrolling(false);	
 });
 

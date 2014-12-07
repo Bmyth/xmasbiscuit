@@ -2,19 +2,6 @@ $(function(){
 	window.preIndex = 1;
 	window.snow = true;
 
-	// setInterval(function(){
-	// 	if(window.firstSection){ 
-	// 		slide();
-	// 	};
-	// }, 3500);
-
-	function slide(){
-		var s = $(".slider li").get(0);
-		$(s).animate({'margin-left': '-25%'}, 1000, function(){
-			$(s).appendTo($(".slider ul")).css("margin-left", 0);
-		})
-	}
-
 	$('.container').fullpage({
 	    afterLoad: function(anchorLink, index){
 	    	if(index == 1 || index == 7){
@@ -36,7 +23,7 @@ $(function(){
 	    	}
 
 	    	if(index == 7){
-	    		$(".xmas").animate({"width": 500}, 1000);
+	    		$(".xmas").animate({"width": 500}, 'slow');
 	    	}
 	    	if(index == 6){
 	    		$(".xmas").css({"width": 0});
@@ -67,5 +54,30 @@ $(function(){
             }
         }
 	});
+	$.fn.fullpage.setAllowScrolling(false);
+
+	var loadingInterval = setInterval(load, 20);
+	function load(){
+		var loaded = sum;
+		var sum = 19;
+		$(".bp").each(function(){
+			if($(this)[0].height === 0){
+				loaded--;
+			}
+		})
+		if(loaded < sum){
+			var w = (loaded * 100 / sum) + '%';
+			$(".loading-bar").animate({width: w}, 10);
+		}else{
+			clearInterval(loadingInterval);
+			$(".loading-bar").animate({width: '100%'}, 1000, function(){
+				$(".loader").hide();
+				$(".loading-bar").hide();
+				$("#canvas_snow").show();
+				$(".fixed").css({"z-index": 3, "background" : "transparent"});
+				$.fn.fullpage.setAllowScrolling(true);
+			});
+		}
+	}
 	
 });

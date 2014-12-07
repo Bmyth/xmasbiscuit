@@ -12,14 +12,14 @@ canvas.width = W;
 canvas.height = H;
 
 //snowflake particles
-var mp = 60; //max particles
+var mp = 64; //max particles
 var particles = [];
 for(var i = 0; i < mp; i++)
 {
 	particles.push({
 		x: Math.random()*W, //x-coordinate
 		y: Math.random()*H, //y-coordinate
-		r: Math.random()*4+1, //radius
+		r: Math.random()*3+1, //radius
 		d: Math.random()*mp //density
 	})
 }
@@ -28,9 +28,9 @@ for(var i = 0; i < mp; i++)
 function draw()
 {
 	ctx.clearRect(0, 0, W, H);
-	ctx.fillStyle = "rgba(220, 220, 220, 0.75)";
-	ctx.shadowBlur = 5;
-	ctx.shadowColor = "rgb(220,220,220)";
+	ctx.fillStyle = "rgba(220, 220, 220, 0.7)";
+	ctx.shadowBlur = 14;
+	ctx.shadowColor = "rgba(220,220,220, 0.55)";
 	/* ctx.fillStyle = "#FF0000";*/
 	ctx.beginPath();
 	for(var i = 0; i < mp; i++)
@@ -87,7 +87,7 @@ particles[i] = {x: W+5, y: Math.random()*H, r: p.r, d: p.d};
 
 //animation loop
 setInterval(function(){
-		if(window.snow){ 
+	if(window.snow){ 
 			draw();
 		};
 	}, 50);

@@ -363,7 +363,7 @@ body{
 }
 .loader{
 	position: relative;
-	padding-top: 70px;
+	padding-top: 150px;
 	width: 125px;
 	margin: 0 auto;
 }
@@ -385,7 +385,7 @@ body{
 }
 .loader h3{
 	position: absolute;
-	top: 132px;
+	top: 210px;
 	left: 12px;
 	width: 100%;
 	display: block;

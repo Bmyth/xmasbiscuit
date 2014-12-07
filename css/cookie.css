@@ -5,6 +5,7 @@
 
 body{
 	font-family: sans-serif;
+	position: relative;
 }
 .container{
 	z-index: 7;
@@ -20,21 +21,19 @@ body{
 	width: 1190px;
 	margin: 0 auto;
 	position: relative;
-	height: 100%;
+	height: 700px;
 }
 .section{
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	min-height: 450px;
-	overflow-y: scroll; 
+	height: 100%;
 }
 .section .centify{
-	height: 100%;
 	width: 1190px;
 	margin: 0 auto;
 	position: relative;
-	min-height: 450px;
+	height: 700px;
 }
 .step{
 	width: 100%;
@@ -55,7 +54,7 @@ body{
 	font-family: md;
 	font-size: 54px;
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 100px;
 }
 .homepage{
 	position: absolute;
@@ -98,7 +97,7 @@ body{
 }
 .light{
 	position: absolute;
-	top: -18px;
+	top: -10px;
 	width: 75px;
 	left: 60px;
 	transform-origin: 55%  8%;
@@ -110,7 +109,7 @@ body{
 	width: 560px;
 	left: 120px;
 	position: absolute;
-	bottom: 150px;
+	top: 215px;
 }
 .second .arrow{
 	bottom: 360px;
@@ -318,19 +317,20 @@ body{
 	right: 380px;
 	bottom: 220px;
 }
-.seventh .footer{
+.footer{
+	display: none;
 	width: 100%;
 	position: absolute;
 	bottom: 10px;
 }
-.seventh h4{
+.footer h4{
 	text-align: center;
 	color: #999;
 	font-size: 16px;
 	font-weight: lighter;
 	line-height: 1.4;
 }
-.seventh h5{
+.footer h5{
 	display: block;
 	width: 200px;
 	text-align: center;

@@ -40,7 +40,7 @@ $(function(){
             }
             if(index == 2 && direction == 'up'){
                 $(".spot").show();
-	    		$(".fixed-spot").hide();
+	    		$(".fixed-spot").hide('fast');
             }
             if(index == 2 && direction == 'down'){
                 $(".second").css({'opacity':0.3});
@@ -51,6 +51,12 @@ $(function(){
                 $(".second").css({'opacity':0.3});
 	    		$(".third").css({'opacity':0.3});
 	    		$(".second").animate({'opacity':1}, 'fast');
+            }
+            if(index == 6 && direction == 'down'){
+	    		$(".footer").fadeIn();
+            }
+            if(index == 7 && direction == 'up'){
+	    		$(".footer").fadeOut();
             }
         }
 	});

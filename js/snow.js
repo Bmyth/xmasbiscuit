@@ -92,6 +92,7 @@ particles[i] = {x: W+5, y: Math.random()*H, r: p.r, d: p.d};
 		};
 	}, 50);
 
+	$(".container").animate({'opacity': 1}, 'slow');
 	$(".loader").hide();
 	$("#canvas_snow").show();
 	$(".fixed").css({"z-index": 3, "background" : "transparent"});

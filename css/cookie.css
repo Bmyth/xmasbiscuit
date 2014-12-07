@@ -8,6 +8,7 @@ body{
 }
 .container{
 	z-index: 7;
+	opacity: 0;
 }
 .fixed{
 	position: absolute;

@@ -269,7 +269,7 @@ body{
 .fourth .stared{
 	z-index: 6;
 	right: 116px;
-	bottom: 43px;
+	bottom: 38px;
 	width: 200px;
 	position: absolute;
 	-webkit-animation: stared 3s linear infinite;

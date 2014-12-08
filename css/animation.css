@@ -29,29 +29,33 @@
 @-webkit-keyframes stared {
 	from { opacity: 0;  }
 	10% {opacity: 0; }
-	20% {opacity: 0.9;  }
+	30% {opacity: 0.9;  }
 	86% { opacity: 0.9; }
+	96% { opacity: 0; }
 	to { opacity: 0; }
 }
 @-o-keyframes stared {
 	from { opacity: 0;  }
 	10% {opacity: 0; }
-	20% {opacity: 0.9;  }
+	30% {opacity: 0.9;  }
 	86% { opacity: 0.9; }
+	96% { opacity: 0; }
 	to { opacity: 0; }
 }
 @-moz-keyframes stared {
 	from { opacity: 0;  }
 	10% {opacity: 0; }
-	20% {opacity: 0.9;  }
+	30% {opacity: 0.9;  }
 	86% { opacity: 0.9; }
+	96% { opacity: 0; }
 	to { opacity: 0; }
 }
 @keyframes stared {
 	from { opacity: 0;  }
 	10% {opacity: 0; }
-	20% {opacity: 0.9;  }
+	30% {opacity: 0.9;  }
 	86% { opacity: 0.9; }
+	96% { opacity: 0; }
 	to { opacity: 0; }
 }
 @-webkit-keyframes load {

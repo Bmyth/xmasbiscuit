@@ -107,7 +107,11 @@ body{
 	top: -10px;
 	width: 75px;
 	left: 60px;
-	transform-origin: 55%  8%;
+	-webkit-transform-origin: 55% 0;
+	-moz-transform-origin: 55% 0;
+	-ms-transform-origin: 55% 0;
+	-o-transform-origin: 55% 0;
+	transform-origin: 55% 0;
 	-webkit-animation: horizon-roll 2s linear infinite;
 	-o-animation: horizon-roll 2s linear infinite;
 	animation: horizon-roll 2s linear infinite;

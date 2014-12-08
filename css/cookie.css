@@ -266,6 +266,7 @@ body{
 	right: 150px;
 }
 .fourth .star{
+	opacity: 0;
 	left: 372px;
 	top: 160px;
 	position: absolute;
@@ -275,6 +276,7 @@ body{
 	animation: star 3s linear infinite;
 }
 .fourth .stared{
+	opacity: 0;
 	z-index: 6;
 	right: 116px;
 	bottom: 38px;

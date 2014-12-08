@@ -262,9 +262,9 @@ body{
 	top: 160px;
 	position: absolute;
 	width: 240px;
-	-webkit-animation: star 3.3s linear infinite;
-	-o-animation: star 3.3s linear infinite;
-	animation: star 3.3s linear infinite;
+	-webkit-animation: star 3s linear infinite;
+	-o-animation: star 3s linear infinite;
+	animation: star 3s linear infinite;
 }
 .fourth .stared{
 	z-index: 6;
@@ -272,9 +272,9 @@ body{
 	bottom: 43px;
 	width: 200px;
 	position: absolute;
-	-webkit-animation: stared 3.5s linear infinite;
-	-o-animation: stared 3.5s linear infinite;
-	animation: stared 3.5s linear infinite;
+	-webkit-animation: stared 3s linear infinite;
+	-o-animation: stared 3s linear infinite;
+	animation: stared 3s linear infinite;
 }
 .fourth h3{
 	font-size: 36px;

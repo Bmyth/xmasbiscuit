@@ -1,130 +1,58 @@
 @-webkit-keyframes star {
-	from {width: 200px; top: 240px; left: 330px;}
-	10%{ width: 145px; top: 390px; left: 270px;}
-	to { width: 145px; top: 390px; left: 270px;}
+	from { opacity: 1;width: 200px; top: 240px; left: 330px;}
+	10%{ opacity: 1;width: 145px; top: 390px; left: 270px;}
+	85% { opacity: 1;width: 145px; top: 390px; left: 270px;}
+	86% { opacity: 0;width: 145px; top: 390px; left: 270px;}
+	to { opacity: 0;width: 145px; top: 390px; left: 270px;}
 }
 @-o-keyframes star {
-	from {width: 200px; top: 240px; left: 330px;}
-	10%{ width: 145px; top: 390px; left: 270px;}
-	to { width: 145px; top: 390px; left: 270px;}
+	from { opacity: 1;width: 200px; top: 240px; left: 330px;}
+	10%{ opacity: 1;width: 145px; top: 390px; left: 270px;}
+	85% { opacity: 1;width: 145px; top: 390px; left: 270px;}
+	86% { opacity: 0;width: 145px; top: 390px; left: 270px;}
+	to { opacity: 0;width: 145px; top: 390px; left: 270px;}
 }
 @-moz-keyframes star {
-	from {width: 200px; top: 240px; left: 330px;}
-	10%{ width: 145px; top: 390px; left: 270px;}
-	to { width: 145px; top: 390px; left: 270px;}
+	from { opacity: 1;width: 200px; top: 240px; left: 330px;}
+	10%{ opacity: 1;width: 145px; top: 390px; left: 270px;}
+	85% { opacity: 1;width: 145px; top: 390px; left: 270px;}
+	86% { opacity: 0;width: 145px; top: 390px; left: 270px;}
+	to { opacity: 0;width: 145px; top: 390px; left: 270px;}
 }
 @keyframes star {
-	from {width: 200px; top: 240px; left: 330px;}
-	10%{ width: 145px; top: 390px; left: 270px;}
-	to { width: 145px; top: 390px; left: 270px;}
+	from { opacity: 1;width: 200px; top: 240px; left: 330px;}
+	10%{ opacity: 1;width: 145px; top: 390px; left: 270px;}
+	85% { opacity: 1;width: 145px; top: 390px; left: 270px;}
+	86% { opacity: 0;width: 145px; top: 390px; left: 270px;}
+	to { opacity: 0;width: 145px; top: 390px; left: 270px;}
 }
 @-webkit-keyframes stared {
-	from { opacity: 0; right: 760px; width: 125px; bottom: 160px; 
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	10% {opacity: 0; right: 760px; width: 125px; bottom: 160px;
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	12% {opacity: 0.9; right: 760px; width: 125px; bottom: 160px; 
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	50% { opacity: 0.9; right: 116px; width: 200px; bottom: 43px; 
-		-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	transform: rotate(360deg); }
-	to { opacity: 0.9; right: 116px; width: 200px; bottom: 43px; 
-		-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	transform: rotate(360deg); }
+	from { opacity: 0;  }
+	10% {opacity: 0; }
+	20% {opacity: 0.9;  }
+	86% { opacity: 0.9; }
+	to { opacity: 0; }
 }
 @-o-keyframes stared {
-	from { opacity: 0; right: 760px; width: 125px; bottom: 160px; 
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	10% {opacity: 0; right: 760px; width: 125px; bottom: 160px;
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	12% {opacity: 0.9; right: 760px; width: 125px; bottom: 160px; 
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	50% { opacity: 0.9; right: 116px; width: 200px; bottom: 43px; 
-		-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	transform: rotate(360deg); }
-	to { opacity: 0.9; right: 116px; width: 200px; bottom: 43px; 
-		-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	transform: rotate(360deg); }
+	from { opacity: 0;  }
+	10% {opacity: 0; }
+	20% {opacity: 0.9;  }
+	86% { opacity: 0.9; }
+	to { opacity: 0; }
 }
 @-moz-keyframes stared {
-	from { opacity: 0; right: 760px; width: 125px; bottom: 160px; 
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	10% {opacity: 0; right: 760px; width: 125px; bottom: 160px;
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	12% {opacity: 0.9; right: 760px; width: 125px; bottom: 160px; 
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	50% { opacity: 0.9; right: 116px; width: 200px; bottom: 43px; 
-		-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	transform: rotate(360deg); }
-	to { opacity: 0.9; right: 116px; width: 200px; bottom: 43px; 
-		-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	transform: rotate(360deg); }
+	from { opacity: 0;  }
+	10% {opacity: 0; }
+	20% {opacity: 0.9;  }
+	86% { opacity: 0.9; }
+	to { opacity: 0; }
 }
 @keyframes stared {
-	from { opacity: 0; right: 760px; width: 125px; bottom: 160px; 
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	10% {opacity: 0; right: 760px; width: 125px; bottom: 160px;
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	12% {opacity: 0.9; right: 760px; width: 125px; bottom: 160px; 
-		-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);}
-	50% { opacity: 0.9; right: 116px; width: 200px; bottom: 43px; 
-		-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	transform: rotate(360deg); }
-	to { opacity: 0.9; right: 116px; width: 200px; bottom: 43px; 
-		-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	transform: rotate(360deg); }
+	from { opacity: 0;  }
+	10% {opacity: 0; }
+	20% {opacity: 0.9;  }
+	86% { opacity: 0.9; }
+	to { opacity: 0; }
 }
 @-webkit-keyframes load {
 	from {-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}

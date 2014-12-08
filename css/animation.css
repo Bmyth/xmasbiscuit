@@ -1,29 +1,29 @@
 @-webkit-keyframes star {
-	from { opacity: 1;width: 200px; top: 240px; left: 330px;}
+	from { opacity: 0;width: 200px; top: 240px; left: 330px;}
+	2% { opacity: 1;width: 200px; top: 240px; left: 330px;}
 	10%{ opacity: 1;width: 145px; top: 390px; left: 270px;}
 	85% { opacity: 1;width: 145px; top: 390px; left: 270px;}
-	86% { opacity: 0;width: 145px; top: 390px; left: 270px;}
 	to { opacity: 0;width: 145px; top: 390px; left: 270px;}
 }
 @-o-keyframes star {
-	from { opacity: 1;width: 200px; top: 240px; left: 330px;}
+	from { opacity: 0;width: 200px; top: 240px; left: 330px;}
+	2% { opacity: 1;width: 200px; top: 240px; left: 330px;}
 	10%{ opacity: 1;width: 145px; top: 390px; left: 270px;}
 	85% { opacity: 1;width: 145px; top: 390px; left: 270px;}
-	86% { opacity: 0;width: 145px; top: 390px; left: 270px;}
 	to { opacity: 0;width: 145px; top: 390px; left: 270px;}
 }
 @-moz-keyframes star {
-	from { opacity: 1;width: 200px; top: 240px; left: 330px;}
+	from { opacity: 0;width: 200px; top: 240px; left: 330px;}
+	2% { opacity: 1;width: 200px; top: 240px; left: 330px;}
 	10%{ opacity: 1;width: 145px; top: 390px; left: 270px;}
 	85% { opacity: 1;width: 145px; top: 390px; left: 270px;}
-	86% { opacity: 0;width: 145px; top: 390px; left: 270px;}
 	to { opacity: 0;width: 145px; top: 390px; left: 270px;}
 }
 @keyframes star {
-	from { opacity: 1;width: 200px; top: 240px; left: 330px;}
+	from { opacity: 0;width: 200px; top: 240px; left: 330px;}
+	2% { opacity: 1;width: 200px; top: 240px; left: 330px;}
 	10%{ opacity: 1;width: 145px; top: 390px; left: 270px;}
 	85% { opacity: 1;width: 145px; top: 390px; left: 270px;}
-	86% { opacity: 0;width: 145px; top: 390px; left: 270px;}
 	to { opacity: 0;width: 145px; top: 390px; left: 270px;}
 }
 @-webkit-keyframes stared {

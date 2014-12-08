@@ -23,7 +23,7 @@ $(function(){
 	    	}
 
 	    	if(index == 7){
-	    		$(".xmas").animate({"width": 500}, 'slow');
+	    		$(".xmas").animate({"width": 550}, 800);
 	    	}
 	    	if(index == 6){
 	    		$(".xmas").css({"width": 0});
